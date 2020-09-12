@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+    </head>
+    <body>
+        <h1>Register</h1>
+        <form>
+            <label for="first name">First Name: </label>
+            <input name="fname" id="first name" type="text" required>
+            <label for="last name">Last Name: </label>
+            <input name="lname" id="last name" type="text" required>
+            <br>
+            <label for="Male">Male </label>
+            <input name="gender" id="Male" type="radio" value="m">
+            <label for="Female">Female </label>
+            <input name="gender" id="Female" type="radio" value="f">
+            <label for="Other">Other</label>
+            <input name="gender" id="Other" type="radio" value="o">
+            <br>
+            <label for="email">Email: </label>
+            <input name="email" id="email" type="email" required>
+            <label for="password">Password: </label>
+            <input name="pass" id="password" type="password" pattern=".{5,12}" required title="5 to 12 characters">
+            <br>
+            <label>Birthday</label>
+            <select name="month">
+                <option>Month</option>
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+                <option>May</option>
+            </select>
+            <select name="Date">
+                <option>Date</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+            <select name="year">
+                <option>Year</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+                <option>2004</option>
+            </select>
+            <br>
+            <lable for="validation">I agree to the terms and conditions </lable>
+            <input id="validation" type="checkbox">
+            <br>
+            <button>
+                Submit
+            </button>
+        </form>
+    </body>
+</html>

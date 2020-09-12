@@ -1,0 +1,26 @@
+/* Element */
+li{
+    border: 2px solid blue;
+}
+/* class */
+#special{
+    background: yellow;
+}
+/* id */
+.todo{
+    text-decoration: line-through;
+}
+/* Star -- applies to every single element */
+
+/* Descendent  --- inside another 
+li a{
+}   here all a inside li will be affeced
+*/
+
+/* Adjacent -- h4 + ul */
+
+/* Attribute a[href=""] 
+or input[type=""]*/
+
+/* nth of type
+    ul:nth-of-type(number) -- */

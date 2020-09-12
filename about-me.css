@@ -1,0 +1,20 @@
+h1 {
+    color: blueviolet;
+    /* border-color: cadetblue;
+    border-width: 5px;
+    border-style: double; */
+
+    border: 8px dashed orange;
+}
+li {
+    color: brown;
+}
+h4{
+    background : rgba(200,100,100);
+}
+body{
+    background : pink;
+    /* background : url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
