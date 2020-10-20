@@ -1,0 +1,23 @@
+ul,li{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-size: 1.5em;
+}
+h1{
+    font-size: 6em;
+    text-align: center;
+}
+
+@media(min-width: 600px) and (max-width: 800px){
+    h1{
+        color: whie;
+    }
+}
+@media(orientation: portrait){
+    body{
+        background-color: black;
+    }
+}
