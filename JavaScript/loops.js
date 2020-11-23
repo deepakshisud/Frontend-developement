@@ -21,13 +21,36 @@
 // // }
 // // console.log("You got it!");
 
-let input = prompt("Hey say something");
-while(true)
-{
-    input = prompt(input);
-    if(input === "stop copying me"){
-        break;
+// let input = prompt("Hey say something");
+// while(true)
+// {
+//     input = prompt(input);
+//     if(input === "stop copying me"){
+//         break;
+//     }
+// }
+// console.log("OK YOU WIN!!!")
+
+
+// Guessing game
+
+let max = parseInt(prompt("Enter the maximum number"));
+while(!max){
+    max = parseInt(prompt("Enter a valid number"));
+}
+const target = Math.floor(Math.random()*max)+1;
+
+let guess = parseInt(prompt("Enter your first guess"));
+
+let attempt = 1;
+
+while(guess!== target){
+    attempt++;
+    if(guess>target){
+        guess = parseInt(prompt("Too high! Enter a new guess"));
+    }
+    else {
+        guess = parseInt(prompt("Too low! Enter a new guess"));
     }
 }
-console.log("OK YOU WIN!!!")
-
+console.log(`You GOT it!!! It took you ${attempt}`);
