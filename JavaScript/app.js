@@ -13,3 +13,9 @@ if(password.length>=6){
 else{
     console.log("TOO SHORT");
 }
+
+
+console.log("Loops");
+for(let i=1;i<=10;i++){
+    console.log(i);
+}
