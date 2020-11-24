@@ -7,5 +7,7 @@ if(random < 0.5) {
 
 //const password = prompt("please enter a new password");
 
-
+function greet(firstName){
+    console.log(`First name is ${firstName}`);
+}
 
