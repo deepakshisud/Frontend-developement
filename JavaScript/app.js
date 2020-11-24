@@ -11,3 +11,10 @@ function greet(firstName){
     console.log(`First name is ${firstName}`);
 }
 
+function repeat(str, n){
+    result = '';
+    for(let i = 0;i<n; i++){
+        result+=str;
+    }
+    console.log(result);
+}
