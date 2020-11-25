@@ -25,3 +25,16 @@ function repeat(str, n){
 const a = function(x,y){
     return x+y;
 }
+
+//higher order functions
+
+function callTwice(func){
+    func();
+    func();
+}
+
+function rollDie(){
+    const roll = 1
+    console.log(roll);
+}
+callTwice(rollDie)
