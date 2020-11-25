@@ -18,3 +18,10 @@ function repeat(str, n){
     }
     console.log(result);
 }
+
+
+//function expression
+
+const a = function(x,y){
+    return x+y;
+}
