@@ -38,3 +38,19 @@ function rollDie(){
     console.log(roll);
 }
 callTwice(rollDie)
+
+//returning a function
+
+function makeMysteryFunc(){
+    const rand = Math.random();
+    if(rand>0.5){
+        return function(){
+            console.log("Nice one");
+        }
+    }
+    else{
+        return function(){
+            console.log("Bad one");
+        }
+    }
+}
