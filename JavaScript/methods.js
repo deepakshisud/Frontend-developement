@@ -16,3 +16,13 @@ const cat = {
         console.log(this.name)
     }
 }
+
+//Try and Catch
+
+try{
+    hello.toUpperCase();
+}
+
+catch{
+    console.log("Error");
+}
