@@ -16,3 +16,9 @@ const dou =num.map(function(n){
 const add = (x,y) => {
     return x+y;
 }
+
+//setTimeout
+
+setTimeout(()=>{
+    console.log("HELLO")
+},3000)
