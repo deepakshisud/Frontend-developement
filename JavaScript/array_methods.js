@@ -28,3 +28,10 @@ setTimeout(()=>{
 const id = setInterval(()=>{
     console.log(Math.random())
 },2000);
+
+
+//reduce function
+
+[1,2,3,45,4].reduce((accumulator,currentValue) => {
+    return accumulator+currentValue
+})
