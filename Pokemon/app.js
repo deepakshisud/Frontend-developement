@@ -1,6 +1,11 @@
 // https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png
 
 const container = document.querySelector('#container');
+
+//const newImage = document.createElement('img')
+// newImage.src = ''
+//container.appendChild(newImage)
+
 const baseURL = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/'
 
 
