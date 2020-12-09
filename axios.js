@@ -9,7 +9,7 @@
 const jokes = document.querySelector('#joke');
 const getDadJoke = async () => {
     const conf = { headers : { Accept : 'application/json'}}
-    const res = await axios.get('https://icanhazdadjoke.com/',conf);
+    const res = await axios.get('https://icanhazdadjoke.com/',conf)
     console.log(res);
     const newLI = document.createElement('li');
     newLI.append(res.data.joke);
